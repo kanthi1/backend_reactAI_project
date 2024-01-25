@@ -10,11 +10,6 @@ const openai = new OpenAI({ apiKey: "YOUR_API_KEY" });
 
 
 
-// const config = new OpenAIApi(new Configuration({
-//     apiKey:"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"
-    
-// }))
-
 
 const app = express()
 app.use(bodyParser.json())
