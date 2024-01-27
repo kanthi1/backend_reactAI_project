@@ -15,7 +15,7 @@ const app = express()
 app.use(bodyParser.json())
 app.use(cors())
 
-// const openAIConfig = new OpenAIApi("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");
+
 
 app.post('/query1',async (req,res)=>{
 
